@@ -1,13 +1,19 @@
 
 
-
+import { Routes,Route } from "react-router-dom"
+import Footer from "./Components/Footer/Footer.tsx";
+import Header from "./Components/Header/Header.tsx";
 
 function App() {
   
 
   return (
     <>
-    <h1>Hii simons</h1>
+    <Header/>
+    <Routes>
+      <Route></Route>
+    </Routes>
+  
  
     </>
   )
