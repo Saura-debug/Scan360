@@ -10,7 +10,7 @@ export default function Samplepreviewimage({sample}:samples) {
   const streamRef = useRef<MediaStream | null>(null);
   const [Captured,setCaptured] = useState<string | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  <canvas ref={canvasRef} className="hidden" />
+  
 
  
   
@@ -42,7 +42,7 @@ const takePhoto = ()=>{
 }
 
   const canvas = canvasRef.current;
-  
+
   if (!video || !canvas) return;
   console.log("vedio and canva are fine");
   canvas.width = video.videoWidth;
@@ -57,6 +57,7 @@ const takePhoto = ()=>{
  
   return (
     <div className='mt-[3%]'>
+      <canvas ref={canvasRef} className="hidden" />
         
         <div className='w-full h-[3.5rem] bg-gray-50 pt-[0.6%] pl-[4%]'>
             <h1 className='text-3xl font-serif font-cinzel '>{sample}</h1>
