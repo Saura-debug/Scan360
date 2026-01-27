@@ -42,7 +42,7 @@ export default function Sidebar() {
         <Pageslinks title='Reports' icon1={< FaSquarePollVertical color='#FFFFFF' size={45} />} icon2={<FaHandPointRight color='#FFFFFF' size={45}/>} navigation='/reports'/>
       </div>
       <div>
-        <Pageslinks title='Admin d' icon1={<MdAdminPanelSettings color='#FFFFFF' size={45} />} icon2={<FaHandPointRight color='#FFFFFF' size={45}/>} navigation='/admin'/>
+        <Pageslinks title='Admin ' icon1={<MdAdminPanelSettings color='#FFFFFF' size={45} />} icon2={<FaHandPointRight color='#FFFFFF' size={45}/>} navigation='/admin'/>
       </div>
       <div>
         <Pageslinks title='Super Admin' icon1={<RiAdminFill color='#FFFFFF' size={45} />} icon2={< FaHandPointRight color='#FFFFFF' size={45}/>} navigation='/superadmin'/>
