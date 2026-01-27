@@ -8,7 +8,7 @@ import ScanAxilDDR2 from '../../pages/ScanAxilDDR2';
 import Superadmin from '../../pages/Superadmin';
 export default function Workspace() {
   return (
-    <div>
+    <div className='h-[30%]'>
         <Routes>
             <Route path='/dashboard'element = {<Dashboard/>} />
             <Route path='/admin'element = {<Admin/>} />

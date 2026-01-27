@@ -12,19 +12,21 @@ function App() {
 
   return (
     <>
+    <div className="w-screen h-screen">
     <Header/>
     <Routes>
       <Route></Route>
     </Routes>
     <div className="flex">
       <Sidebar/>
-      <div className="w-[100%]">
+      <div className="w-[80%] h-[30%]">
         <Scanningoption/>
         <Workspace/>
 
       </div>
       
 
+    </div>
     </div>
     
   
