@@ -10,6 +10,7 @@ export default function Workspace() {
   return (
     <div className='h-[30%]'>
         <Routes>
+          <Route path='/' element = {<Dashboard/>}/>
             <Route path='/dashboard'element = {<Dashboard/>} />
             <Route path='/admin'element = {<Admin/>} />
             <Route path='/reports'element = {<Reports/>} />

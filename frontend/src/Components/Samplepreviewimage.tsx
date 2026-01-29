@@ -23,6 +23,7 @@ export default function Samplepreviewimage({sample}:samples) {
   startCamera();
 
   return () => {
+    console.log("camera is unmounted")
     streamRef.current?.getTracks().forEach(t => t.stop());
   };
 }, []);
